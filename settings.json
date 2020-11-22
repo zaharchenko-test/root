@@ -1,0 +1,11 @@
+{
+  "workbench.colorTheme": "Default Dark+",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.fontSize": 8,
+  "debug.console.fontSize": 8,
+  "markdown.preview.fontSize": 8,
+  "terminal.integrated.fontSize": 8,
+  "terminal.integrated.lineHeight": 0
+}
