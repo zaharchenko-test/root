@@ -8,5 +8,17 @@
   "markdown.preview.fontSize": 8,
   "terminal.integrated.fontSize": 8,
   "terminal.integrated.lineHeight": 0,
-  "files.autoSave": "off"
+  "files.autoSave": "off",
+  "git.autofetch": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.singleQuote": true,
+  "liveSassCompile.settings.generateMap": false,
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "autoprefix": "last 5 version",
+      "extensionName": ".css"
+    }
+  ]
 }
