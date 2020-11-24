@@ -5,7 +5,7 @@ sudo usermod -a -G sudo jeka
 
 
 sudo apt-get install -y apt-utils
-sudo apt-get install -y software-properties-common build-essential curl nano
+sudo apt-get install -y software-properties-common build-essential curl nano gnupg
 sudo add-apt-repository ppa:git-core/ppa
 curl -sL https://deb.nodesource.com/setup_15.x | sudo -E bash -
 wget -qO - https://www.mongodb.org/static/pgp/server-4.4.asc | sudo apt-key add -
