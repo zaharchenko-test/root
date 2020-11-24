@@ -1,3 +1,5 @@
+sudo apt-get install -y apt-utils
+
 sudo apt-get install -y software-properties-common build-essential curl nano
 
 sudo add-apt-repository ppa:git-core/ppa
@@ -26,3 +28,7 @@ wget https://github.com/cdr/code-server/releases/download/v3.7.2/code-server-3.7
 tar -xvf ./code-server-3.7.2-linux-arm64.tar.gz
 
 ln -s /lib/code-server-3.7.2-linux-arm64/code-server /bin/
+
+
+
+sudo apt clean
