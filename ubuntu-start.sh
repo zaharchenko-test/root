@@ -1,3 +1,9 @@
+apt-get update -y && apt-get install wget curl proot tar -y && wget https://raw.githubusercontent.com/tuanpham-dev/termux-ubuntu/master/ubuntu.sh && bash ubuntu.sh
+
+sudo usermod -a -G sudo jeka
+
+
+
 sudo apt-get install -y apt-utils
 
 sudo apt-get install -y software-properties-common build-essential curl nano
