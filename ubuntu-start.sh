@@ -16,6 +16,7 @@ sudo apt-get update
 sudo apt-get install -y nodejs git mongodb-org
 
 
+sudo systemctl start mongod
 sudo service mongod start
 sudo service mongod status
 sudo service mongod stop
