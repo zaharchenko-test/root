@@ -8,8 +8,8 @@ sudo apt-get install -y apt-utils
 sudo apt-get install -y software-properties-common build-essential curl nano gnupg
 sudo add-apt-repository ppa:git-core/ppa
 curl -sL https://deb.nodesource.com/setup_15.x | sudo -E bash -
-wget -qO - https://www.mongodb.org/static/pgp/server-4.4.asc | sudo apt-key add -
-echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/4.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.4.list
+wget -qO - https://www.mongodb.org/static/pgp/server-4.2.asc | sudo apt-key add -
+echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu Focal/mongodb-org/4.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.2.list
 
 
 sudo apt-get update
