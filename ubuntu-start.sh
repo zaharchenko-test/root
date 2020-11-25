@@ -11,7 +11,7 @@ curl -sL https://deb.nodesource.com/setup_15.x | sudo -E bash -
 
 
 sudo apt-get update
-sudo apt-get install -y nodejs git
+sudo apt-get install -y nodejs git yarn
 
 
 git config --global user.name "zaharchenko-test"
@@ -23,7 +23,7 @@ git config --global user.password "0988383057a"
 sudo npm install -g npm@next
 sudo npm install -g create-react-app
 sudo npm install -g @angular/cli
-		ng serve --host 0.0.0.0 --port 4200
+		
 
 wget https://github.com/cdr/code-server/releases/download/v3.7.2/code-server-3.7.2-linux-arm64.tar.gz
 tar -xvf ./code-server-3.7.2-linux-arm64.tar.gz

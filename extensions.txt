@@ -1,0 +1,19 @@
+auto close tag
+
+auto rename tag
+
+live server
+
+live sass compile 
+
+bracket pair colorizer
+
+prettier code formater
+
+es7 snippets
+
+babel javascript
+
+path initialize
+
+material icons
