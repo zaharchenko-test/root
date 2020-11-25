@@ -14,12 +14,6 @@ sudo apt-get update
 sudo apt-get install -y nodejs git
 
 
-sudo systemctl start mongod
-sudo service mongod start
-sudo service mongod status
-sudo service mongod stop
-
-
 git config --global user.name "zaharchenko-test"
 git config --global user.email "zaharchenko.jeka.v@gmail.com"
 git config --global init.defaultBranch "root"
