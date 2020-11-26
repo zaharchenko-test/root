@@ -4,7 +4,7 @@ apt-get update -y && apt-get install wget curl proot tar -y && wget https://raw.
 sudo usermod -a -G sudo jeka
 
 
-sudo apt-get install -y apt-utils
+sudo apt-get install -y apt-utils sudo
 sudo apt-get install -y software-properties-common bash-completion build-essential curl nano gnupg 
 sudo add-apt-repository ppa:git-core/ppa
 curl -sL https://deb.nodesource.com/setup_15.x | sudo -E bash - 

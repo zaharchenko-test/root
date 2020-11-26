@@ -24,4 +24,11 @@ PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]>
 # corsor and it's color
 echo -e '\e[3 q'
 echo -ne "\033]12;#00ff00\007"
+
+
 LS_COLORS=$LS_COLORS:'di=1;34:ex=1;33:fi=1;36:' ; export LS_COLORS
+
+
+if [ -f /etc/bash_completion ]; then
+  . /etc/bash_completion
+fi
