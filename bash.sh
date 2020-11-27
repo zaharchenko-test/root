@@ -16,10 +16,11 @@ w='\[\e[1;37m\]'
 
 # simple kali prompt
 #PS1="$r\\]root@localhost :$g [$y \W $g] $r~#  $c"
-PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]>
+
 
 # 2nd prompt
 #PS1="\n$r   ^u^t   ^u^p[ $c\@ $r] [ $c\V $r] [ $c$nifce $r] [ $c\W $r] [ $c\j $r]\n$r   ^u^q \>
+PS1='\[\033[01;32m\]\u-ubuntu@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\[\e[1;37m\]\$ '
 
 # corsor and it's color
 echo -e '\e[3 q'
