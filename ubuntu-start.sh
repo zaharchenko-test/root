@@ -15,9 +15,9 @@ sudo apt-get install -y nodejs git yarn
 
 
 git config --global user.name "zaharchenko-test"
-git config --global user.email "zaharchenko.jeka.v@gmail.com"
+git config --global user.email ""
 git config --global init.defaultBranch "root"
-git config --global user.password "0988383057a"
+git config --global user.password ""
 
 
 sudo npm install -g npm@next
